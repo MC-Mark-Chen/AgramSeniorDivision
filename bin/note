@@ -1,0 +1,13 @@
+/**
+     * The dealer must play a card of the same suit if he can.
+     * He plays the lowest card in that suit that is of a higher rank than the card the opponent played.
+     * If he does not have such a card, he plays his lowest card in that suit.
+     * If he does not have a card in that suit, he plays the lowest ranking card regardless of suit.
+     * If there is a tie, he plays the card in the following order: clubs, diamonds, hearts and spades.
+     * 
+     * There will be 5 lines of input. 
+     * cardLead is the opponent's card
+     * card 1 to 5 are the cards available for the dealer
+     * 
+     * This program will print the card the dealer must play according to the strategy listed above for each input line.
+     */
